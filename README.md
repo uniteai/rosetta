@@ -14,16 +14,15 @@ ollama/llama.cpp/chatrtx/vllm/oobabooga/etc --model "MyFilesBot.gguf"
 
 ## Project Timeline
 
-| Status | Task                                                     |
-|--------|----------------------------------------------------------|
-| [X]    | Fetch a myriad of resources both online and offline      |
-| [X]    | Generate synthetic data from them via prompt engineering |
-| [ ]    | Train synth data into an AI                              |
-| [ ]    | Generate quants of your new AI                           |
-| [ ]    | Upload to HF                                             |
-| [ ]    | Deploy to a server                                       |
-| [ ]    | Profit                                                   |
-
+| Status | Task                                                      |
+|--------|-----------------------------------------------------------|
+| ☑      | Fetch a myriad of resources both online and offline      |
+| ☑      | Generate synthetic data from them via prompt engineering |
+| ☐      | Train synth data into an AI                               |
+| ☐      | Generate quants of your new AI                            |
+| ☐      | Upload to HF                                              |
+| ☐      | Deploy to a server                                        |
+| ☐      | Profit                                                    |
 
 ## Motivating Examples
 
@@ -59,7 +58,7 @@ AI: Got it, I'll generate a dialog about this passage:
 **Second**, parse out `[Student]` and `[Teacher]`, and save this in an AI-training-friendly format:
 
 ```json
-[{"role":"user", "content": "What is the significance of God"s creation on the 4th day?"},
+[{"role":"user", "content": "What is the significance of God's creation on the 4th day?"},
  {"role":"assistant", "content": "On the fourth day God created the Sun and the Moon, to separate the day from the night. [...]"}]
  ```
 
