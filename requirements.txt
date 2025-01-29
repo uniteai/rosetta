@@ -10,7 +10,7 @@ beautifulsoup4
 youtube-transcript-api
 
 
-GitPython              # downloading repos
+# GitPython              # downloading repos. Holy F github tells me all day every day this lib as severe exploits, so I'm turning it off
 nbformat               # ipynb files
 youtube-transcript-api # yt transcripts
 pypdf
